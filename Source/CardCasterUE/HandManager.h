@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -21,7 +19,7 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
-	// 1. 카드를 한 장 뽑는 함수 (테스트용)
+	// 1. Draw 1 Card
 	UFUNCTION(BlueprintCallable, Category = "Hand")
 	void AddCardToHand(UCardDefinition* CardData);
 
