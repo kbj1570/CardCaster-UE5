@@ -37,6 +37,6 @@ protected:
 	float CardSpacing = 250.0f;
 
 	// 현재 손에 들고 있는 카드들 목록
-	UPROPERTY(VisibleAnywhere, Category = "State")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "State")
 	TArray<ACardActor*> CurrentHand;
 };
